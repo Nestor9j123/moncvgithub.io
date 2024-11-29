@@ -1,0 +1,9 @@
+@media screen and (max-width: 1024px) and (min-width: 120px) 
+{ 
+p ,h2,h1
+{ 
+ color: gray; 
+ 
+font-size: 0.5em; 
+ } 
+} 

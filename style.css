@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+   
+}
+
+.imgBx img{
+    width: 200px;
+    height: 200px;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #fff;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 35px rgba(0, 0, 0, 0.1);
+    margin: 30px;
+}
+
+.profiletext{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-color: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.profiletext h2{
+    color: #fff;
+    font-size: 1.8em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align:center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+
+.profiletext h2 span{
+    color: #fff;
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+.ContactInfo{
+    padding-top: 40px;
+
+}
+
+.title{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.ContactInfo ul{
+    position: relative;
+}
+
+.ContactInfo ul li{
+    position:relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.ContactInfo ul li .icon{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: blue;
+}
+
+.ContactInfo ul li span{
+    color: #fff;
+    font-weight: 300;
+}
+.profiletext .imgBx{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profiletext .imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    object-fit:cover;
+}
+
+.ContactInfo h5{
+    color: #03a9f4;
+    font-weight: 500;
+}
+
+.ContactInfo.education li{
+    margin-bottom: 15px;
+
+}
+
+.ContactInfo.education h4{
+    color: #fff;
+    font-weight: 300;
+}
+
+
+
+.ContactInfo.education h4:nth-child(2){
+    color: #fff;
+    font-weight: 300;
+}
+
+.ContactInfo.language .percent{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background:black;
+    display: block;
+    margin-top: 5px;
+}
+
+.ContactInfo.language .percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: blue;
+}
+
+.container .gauche{
+    position: relative;
+    background: #003147;
+    padding: 40px;
+    overflow:hidden ;
+}
+
+.container .droite{
+    position: relative;
+    background: #fff;
+    
+}
+
+ h2{
+    color: #03a9f4;
+    align-items: center;
+    text-align: center;
+}
+
+p{
+    color: #003147;
+}
+
+.nest ul li{
+    position: center;
+    text-align: center;
+    margin: 25px;
+    list-style: none;
+}
+
+.about.skills .percent{
+    position: relative;
+    width: 100%;
+    height : 6px;
+    background : black;
+    display : block;
+    margin-top : 20px;
+
+}
+
+.about.skills .percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: blue;
+}
+
+.skills .box{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills .box h4{
+justify-content: center;
+align-items: center;
+margin-left: 30%;
+margin-top: 10%;
+}
+
+.cer .lou h2{
+    text-align: center;
+  
+}
+
+.vert .cer ul li{
+    margin: 50px;
+}
+
+.lou{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 60px;
+    text-align: center;
+}
+
+.cer ul li{
+    color: orange;
+}
+
+.cer ul li.net{
+    color: #0000FF;
+}
+
+.nest ul li{
+    color: coral;
+    font-weight: 700;
+}
